@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="main">
+        <!-- score board -->
+        <div class="score">
+            <div class="gameName">
+                <p>ROCK</p>
+                <p>PAPER</p>
+                <p>SCISSORS</p>
+            </div>
+            <div class="computerScore score1">
+                <p>COMPUTER SCORE</p>
+                <h1 class="pcScore">0</h1>
+            </div>
+            <div class="userScore score1">
+                <p>YOUR <br>SCORE</p>
+                <h1 class="yourScore">0</h1>
+            </div>
+
+        </div>
+        <div class="pickedScore">
+            <p>YOU PICKED</p>
+            <p>PC PICKED</p>
+        </div>
+       
+
+        <!-- images -->
+        
+            <div class="strline">
+                <img src="Line 1.png" class="line0">
+            </div>
+            <div class="strline">
+                <img src="Line 2.png" class="line1">
+            </div>
+            <div class="strline">
+                <img src="Line 3.png" class="line3">
+            </div>
+
+        <!-- hands img -->
+            <div class="blue human">
+                <div class="blueChild">
+                    <img src="./Rock.png">
+                </div>
+            </div>
+            <div class="purple human">
+                <div class="purpleChild">
+                    <img src="./Scissor.png">
+                </div>
+            </div>
+            <div class="orange human">
+                <div class="orangeChild">
+                    <img src="./Paper.png">
+                </div>
+            </div>
+            
+
+            <!-- computer image -->
+
+            <div class="blue computer">
+                <div class="blueChild">
+                    <img src="./Rock.png">
+                </div>
+            </div>
+            <div class="purple computer">
+                <div class="purpleChild">
+                    <img src="./Scissor.png">
+                </div>
+            </div>
+            <div class="orange computer">
+                <div class="orangeChild">
+                    <img src="./Paper.png">
+                </div>
+            </div>
+             
+            <img src="./Ellipse .png" class="outerCircle">
+</div>
+
+        <div class="result">
+             <h1 class="win">YOU WIN</h1>
+             <h3 class="again">AGAINST PC</h3>
+            <button class="playagain">PLAY AGAIN</button>
+        </div>
+
+    <!-- this is button -->
+    <div class="game">
+        <h1 class="ex">X</h1>
+        <h2>Game Rules</h2>
+        <ul class="popup">
+            <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+            <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+            <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+            <li>If both players lay down the same hand, each player lays down another hand</li>
+        </ul>
+        
+
+    </div>
+            <button class="rule">RULES</button>
+            <button class="next">NEXT</button>
+
+    <div class="winImg"> 
+        <img src="./Star.png" class="star">
+        <img src="./Trophy.png" class="trophy">
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>

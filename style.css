@@ -1,0 +1,339 @@
+body{
+    background-color: #8CC461;
+}
+.main{
+    display:block;
+}
+.rule{
+    height: 40px;
+    width: 100px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    background:transparent ;
+    color:white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-left: 88vw;
+    margin-top: 89vh;
+    cursor: pointer;
+
+}
+.game{
+    height:351px;
+    width: 300px;
+    position: fixed;
+    border: 7px solid rgb(255, 255, 255);
+    border-radius: 13px;
+    background: #004429;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 31vh 0 0 70vw;
+    display: none;
+
+}
+.game>h1{
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    background-color: red;
+    border: 7px solid white;
+    border-radius: 50%;
+    margin-left: 276px;
+    margin-top: -59px;
+    font-family: "Dangrek", sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 79px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.game>h2{
+    justify-content:center ;
+    display: flex;
+
+}
+.game>ul{
+    margin-right:10px ;
+   
+}
+.popup>li{
+    margin-top: 10px;
+}
+ul.popup {
+    list-style-type: square;
+    
+}
+li::marker {
+    color: rgba(255, 214, 0, 1);
+}
+
+  /* this is score button */
+  
+.score{
+    height: 158px;
+    width: 900px;
+    border: 2px solid white;
+    position: fixed;
+    border-radius: 13px;
+    margin-left: 13vw;
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.gameName{
+    height:126px;
+    width: 554px;
+    border-radius: 13px;
+}
+.gameName>p{
+    height: 36px;
+    margin-top: -22px;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 79px;
+}
+.computerScore{
+    height: 126px;
+    width: 126px;
+    background-color: white;
+    border-radius: 13px;
+}
+.userScore{
+    height: 126px;
+    width: 126px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    
+}
+.score1>p, .score1>h1{
+   text-align:center; 
+   margin: 0px;
+   font-family: "Roboto", sans-serif;
+   
+}
+.score1>h1{
+    font-size: 68px;
+}
+.score1>p{
+    font-size:17px;
+    font-weight: bold;
+    color:#656565;
+    margin-top: 10px;
+}
+.pickedScore{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 37vh;
+    /* display: none; */
+    opacity: 0;
+    
+}
+.move{
+    margin-top: 56vh;
+    margin-left: 71vw;
+}
+
+.pickedScore>p{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    
+}
+.result{
+    height: 180px;
+    width: 170px;
+    margin-top: 54vh;
+    position: fixed;
+    margin-left: 85vh;
+    /* display: none; */
+    opacity: 0;
+
+}
+.result>h1{
+    font-size: 39px;
+    font-weight:bolder;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    position: fixed;
+}
+.result>h3{
+    font-size: 25px;
+    font-weight:bolder;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 44px;
+    margin-left: 16px;
+    position: fixed;
+}
+.result>button{
+    height: 40px;
+    width: 160px;
+    border-radius: 9px;
+    background-color: white;
+    color:#6B6B6B;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 82px;
+    border: none;
+    position: fixed;
+    cursor: pointer;
+}
+.line0{
+    position: fixed;
+    margin-top: 53vh;
+    margin-left: 43vw;
+}
+.line1{
+    position: fixed;
+    margin-top: 60vh;
+    margin-left: 49vw;
+}
+.line3{
+    position: fixed;
+    margin-top: 60vh;
+    margin-left: 42vw;
+}
+.blue{
+    position:fixed;
+    height: 130px;
+    width: 130px;
+    background-color: #0074B6;
+    border-radius: 50%;
+    margin-top: 44vh;
+    margin-left: 35vw;
+    cursor: pointer;
+}
+.blueChild>img{
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+}
+.blueChild{
+    height:100px;
+    width:100px;
+    background-color: white;
+    position: fixed;
+    border-radius:50% ;
+    margin: 15px;
+}
+.purple{
+    position:fixed;
+    height: 130px;
+    width: 130px;
+    background-color: #BD00FF;
+    border-radius: 50%;
+    margin-top: 44vh;
+    margin-left: 51vw;
+    cursor: pointer;
+}
+.purpleChild>img{
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+}
+.purpleChild{
+    height:100px;
+    width:100px;
+    background-color: white;
+    position: fixed;
+    border-radius:50% ;
+    margin: 15px;
+}
+.orange{
+    position:fixed;
+    height: 130px;
+    width: 130px;
+    background-color: #FFA943;
+    border-radius: 50%;
+    margin-top: 71vh;
+    margin-left: 43vw;
+    cursor: pointer;
+}
+.orangeChild>img{
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+}
+.orangeChild{
+    height:100px;
+    width:100px;
+    background-color: white;
+    position: fixed;
+    border-radius:50% ;
+    margin: 15px;
+}
+.computer{
+    display: none;
+}
+.outerCircle{
+    width: 300px;
+    position: fixed;
+    height: 300px;
+    margin-left: 13.5vw;
+    margin-top: 43.5vh;
+    opacity: 0;
+}
+.next{
+    height: 40px;
+    width: 100px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    background:transparent ;
+    color:white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-left: 88vw;
+    margin-top: 89vh;
+    cursor: pointer;
+    display: none;
+}
+.star{
+    position: fixed;
+    margin-top: 9vh;
+    margin-left: 29vw;
+    
+}
+.trophy{
+    position: fixed;
+    margin-top: 25vh;
+    margin-left: 42vw;
+    
+}
+.winImg{
+    display: none;
+}
